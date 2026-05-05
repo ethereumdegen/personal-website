@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #ffffff;
+  --color-bg-alt: #f7f7f7;
+  --color-text: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-text-muted: #999999;
+  --color-border: #e5e5e5;
+  --color-accent: #1a1a1a;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text font-sans antialiased;
+    margin: 0;
+  }
+
+  ::selection {
+    @apply bg-text text-bg;
+  }
+}
