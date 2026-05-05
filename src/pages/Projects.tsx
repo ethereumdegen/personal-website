@@ -8,38 +8,38 @@ export default function Projects() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.4 }}
-      className="pt-28 pb-20 px-6"
+      transition={{ duration: 0.3 }}
+      className="pt-28 pb-20 px-6 md:px-12"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.1 }}
-          className="text-text-muted text-sm uppercase tracking-[0.2em] mb-4"
+          className="text-text-muted text-xs uppercase tracking-[0.3em] mb-8"
         >
           Projects
         </motion.p>
 
         <motion.h1
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="text-4xl md:text-5xl font-bold tracking-tight mb-6"
+          className="text-[clamp(2.5rem,6vw,5rem)] font-bold tracking-[-0.04em] leading-[0.95] uppercase mb-6 max-w-3xl"
         >
-          Things I've <span className="gradient-text">built.</span>
+          Things I've built.
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
-          className="text-text-secondary text-lg max-w-2xl mb-14"
+          className="text-text-secondary text-base max-w-xl mb-16"
         >
           Open-source tools, frameworks, and production systems — mostly Rust, mostly agents.
         </motion.p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="border-b border-border">
           {projects.map((project, i) => (
             <ProjectCard key={project.name} project={project} index={i} />
           ))}

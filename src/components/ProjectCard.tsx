@@ -7,9 +7,11 @@ interface Props {
 }
 
 export default function ProjectCard({ project, index }: Props) {
+  const href = project.github || project.live || '#'
+
   return (
     <motion.a
-      href={project.github}
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
       initial={{ opacity: 0, y: 20 }}
@@ -21,6 +23,9 @@ export default function ProjectCard({ project, index }: Props) {
       <div className="flex flex-col md:flex-row md:items-baseline justify-between gap-2 mb-3">
         <h3 className="text-xl md:text-2xl font-semibold tracking-tight group-hover:tracking-normal transition-all duration-300">
           {project.name}
+          {project.live && !project.github && (
+            <span className="text-text-muted text-xs ml-2 font-normal">&nearr;</span>
+          )}
         </h3>
         <div className="flex gap-2 shrink-0">
           {project.tags.map((tag) => (
