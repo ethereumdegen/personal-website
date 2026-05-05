@@ -27,7 +27,7 @@ export default function Projects() {
           transition={{ delay: 0.2 }}
           className="text-[clamp(2.5rem,6vw,5rem)] font-bold tracking-[-0.04em] leading-[0.95] uppercase mb-6 max-w-3xl"
         >
-          Things I've built.
+          My best work.
         </motion.h1>
 
         <motion.p
