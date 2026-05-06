@@ -32,7 +32,7 @@ export default function HeroSection() {
           className="text-text-secondary text-base max-w-md mb-10 leading-relaxed"
         >
           I design and ship agent orchestration frameworks, enterprise LLM infrastructure,
-          and voice-powered automation — from zero to production.
+          and custom engineered solutions from zero to production.
         </motion.p>
 
         <motion.div

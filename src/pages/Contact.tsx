@@ -116,7 +116,7 @@ export default function Contact() {
           className="mt-20 pt-12 border-t border-border flex flex-col sm:flex-row items-start sm:items-center gap-6"
         >
           <a
-            href="https://github.com/andrewmazzola"
+            href="https://github.com/rust4ai"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-text-muted hover:text-text transition-colors"

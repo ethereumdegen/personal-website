@@ -15,7 +15,7 @@ export default function Footer() {
             Consulting
           </Link>
           <a
-            href="https://github.com/andrewmazzola"
+            href="https://github.com/rust4ai"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-text-muted hover:text-text transition-colors"
