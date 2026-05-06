@@ -89,6 +89,34 @@ export default function Consulting() {
           ))}
         </div>
 
+        {/* Open Source Tools */}
+        <h2 className="text-xs uppercase tracking-[0.3em] text-text-muted mb-8">Open Source Tools</h2>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="border border-border p-8 mb-24"
+        >
+          <div className="flex flex-col md:flex-row md:items-baseline gap-4 mb-4">
+            <h3 className="text-xl font-semibold tracking-tight">Knowledgebase Agent</h3>
+            <a
+              href="https://github.com/rust4ai/knowledgebase-agent"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-text-muted hover:text-text transition-colors"
+            >
+              github.com/rust4ai/knowledgebase-agent &rarr;
+            </a>
+          </div>
+          <p className="text-text-secondary text-sm leading-relaxed">
+            Vectorless RAG agent that retrieves and synthesizes knowledge without embedding databases.
+            Uses pageIndex on custom materials to enable precise, chunk-level retrieval over your own
+            documents — smart chunking and re-ranking without the overhead of vector infrastructure.
+          </p>
+        </motion.div>
+
         {/* Case Studies */}
         <h2 className="text-xs uppercase tracking-[0.3em] text-text-muted mb-8">Case Studies</h2>
 

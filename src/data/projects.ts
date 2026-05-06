@@ -8,6 +8,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    name: 'Starflask',
+    description: 'Full-stack web application framework — modern, fast, and batteries-included.',
+    tags: ['Web', 'Framework', 'Full-Stack'],
+    live: 'https://starflask.com',
+  },
+  {
+    name: 'Starflask Digital',
+    description: 'Consulting website for Starflask Digital — software consulting and development services.',
+    tags: ['Consulting', 'Web'],
+    live: 'https://starflaskdigital.com',
+  },
+  {
     name: 'Metalcraft',
     description: 'Agent orchestration framework for composing multi-step AI workflows with tool use, memory, and structured outputs.',
     tags: ['Rust', 'AI Agents', 'Orchestration'],
@@ -38,21 +50,9 @@ export const projects: Project[] = [
     github: 'https://github.com/rust4ai/metalcraft-agent',
   },
   {
-    name: 'Starflask',
-    description: 'Full-stack web application framework — modern, fast, and batteries-included.',
-    tags: ['Web', 'Framework', 'Full-Stack'],
-    live: 'https://starflask.com',
-  },
-  {
     name: 'rust4all-template',
     description: 'Full-stack project template with Rust backend, React frontend, CI/CD, and deployment configs ready to go.',
     tags: ['Rust', 'React', 'Template'],
     github: 'https://github.com/rust4ai/rust4all-template',
-  },
-  {
-    name: 'knowledgebase-agent',
-    description: 'Vectorless RAG agent — retrieves and synthesizes knowledge without embedding databases using smart chunking and re-ranking.',
-    tags: ['Python', 'RAG', 'AI Agent'],
-    github: 'https://github.com/rust4ai/knowledgebase-agent',
   },
 ]
