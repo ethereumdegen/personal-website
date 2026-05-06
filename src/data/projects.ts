@@ -23,7 +23,7 @@ export const projects: Project[] = [
     name: 'StarkBot CLI',
     description: 'Terminal-native AI agent with shell integration, file operations, and conversational coding assistance.',
     tags: ['Rust', 'CLI', 'AI Agent'],
-    github: 'https://github.com/rust4ai/starkbot-cli',
+    github: 'https://github.com/Starkbotai/starkbot-cli',
   },
   {
     name: 'Inference Proxy Server',

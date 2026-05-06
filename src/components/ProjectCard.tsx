@@ -24,7 +24,7 @@ export default function ProjectCard({ project, index }: Props) {
         <h3 className="text-xl md:text-2xl font-semibold tracking-tight group-hover:tracking-normal transition-all duration-300">
           {project.name}
           {project.live && !project.github && (
-            <span className="text-text-muted text-xs ml-2 font-normal">&nearr;</span>
+            <span className="text-text-muted text-xs ml-2 font-normal">↗</span>
           )}
         </h3>
         <div className="flex gap-2 shrink-0">
