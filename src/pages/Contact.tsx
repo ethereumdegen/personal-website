@@ -121,7 +121,7 @@ export default function Contact() {
             rel="noopener noreferrer"
             className="text-sm text-text-muted hover:text-text transition-colors"
           >
-            GitHub &nearr;
+            GitHub ↗
           </a>
           <a
             href="mailto:dev@andrewmazzola.com"
