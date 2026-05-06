@@ -23,7 +23,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="mailto:andrew@andrewmazzola.com"
+            href="mailto:dev@andrewmazzola.com"
             className="text-xs text-text-muted hover:text-text transition-colors"
           >
             Email

@@ -54,12 +54,12 @@ export default function HeroSection() {
           >
             Download Resume
           </a>
-          <Link
-            to="/contact"
+          <a
+            href="mailto:dev@andrewmazzola.com"
             className="text-sm text-text-muted hover:text-text transition-colors"
           >
-            Get in Touch
-          </Link>
+            dev@andrewmazzola.com
+          </a>
         </motion.div>
       </div>
     </section>

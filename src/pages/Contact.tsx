@@ -124,10 +124,10 @@ export default function Contact() {
             GitHub &nearr;
           </a>
           <a
-            href="mailto:andrew@andrewmazzola.com"
+            href="mailto:dev@andrewmazzola.com"
             className="text-sm text-text-muted hover:text-text transition-colors"
           >
-            andrew@andrewmazzola.com
+            dev@andrewmazzola.com
           </a>
           <a
             href="/resume.pdf"
