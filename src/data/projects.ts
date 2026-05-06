@@ -9,8 +9,8 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: 'Starflask',
-    description: 'Full-stack web application framework — modern, fast, and batteries-included.',
-    tags: ['Web', 'Framework', 'Full-Stack'],
+    description: 'AI-powered creative platform for generating presentations, documents, reports, images, and video — with custom DSLs and a Rust/React stack.',
+    tags: ['AI', 'Rust', 'React', 'SaaS'],
     live: 'https://starflask.com',
   },
   {
@@ -48,6 +48,12 @@ export const projects: Project[] = [
     description: 'Reference implementation of a production agent built on the Metalcraft framework — demonstrates real-world patterns.',
     tags: ['Rust', 'AI Agent', 'Reference'],
     github: 'https://github.com/rust4ai/metalcraft-agent',
+  },
+  {
+    name: 'Teller Finance — Lending Pools',
+    description: 'Decentralized lending pools system enabling permissionless, composable lending and borrowing on-chain.',
+    tags: ['DeFi', 'Solidity', 'Lending'],
+    live: 'https://teller.org',
   },
   {
     name: 'rust4all-template',
